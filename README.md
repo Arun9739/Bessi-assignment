@@ -1,8 +1,8 @@
-# React Project Name
+# Bessi assignmnet
 
 ## Overview
 
-Brief description of your React project.
+UI design built as part of assignment.
 
 ## Prerequisites
 
