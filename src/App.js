@@ -9,7 +9,7 @@ import Xarrow from "react-xarrows";
 function App() {
   
   return (
-    <div className="">
+    <div className="container">
       <h1 className="text-center text-black font-bold [font-family:'Montserrat'] text-[50px] mt-10">
         How It Works
       </h1>

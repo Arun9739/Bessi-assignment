@@ -36,3 +36,28 @@
     transform: rotate(360deg);
   }
 }
+
+@media (max-width: 768px) {
+  .grid {
+    grid-template-columns: 1fr; /* Single column layout for mobile devices */
+    grid-template-rows: auto; /* Allow rows to adjust based on content */
+    gap: 1rem;
+    margin-left: 0;
+  }
+
+  .w-[200px] {
+    width: 100%; /* Make the goal, gift, pay, and user containers full width */
+  }
+
+  .mt-[150px] {
+    margin-top: 20px; /* Adjust the top margin for better spacing on smaller screens */
+  }
+
+  .text-[50px] {
+    font-size: 32px; /* Adjust the font size for the main heading on smaller screens */
+  }
+
+  .text-[18px] {
+    font-size: 14px; /* Adjust the font size for step descriptions on smaller screens */
+  }
+}
